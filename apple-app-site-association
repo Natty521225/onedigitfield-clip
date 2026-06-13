@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["AQVH2U33P9.info.hrathnir.app008.clip"],
+        "appIDs": ["AQVH2U33P9.info.hrathnir.app008.Clip"],
         "components": [
           {
             "/": "/play",
@@ -13,6 +13,6 @@
     ]
   },
   "appclips": {
-    "apps": ["AQVH2U33P9.info.hrathnir.app008.clip"]
+    "apps": ["AQVH2U33P9.info.hrathnir.app008.Clip"]
   }
 }

@@ -42,23 +42,23 @@ curl -i https://<your-username>.github.io/.well-known/apple-app-site-association
 {
   "applinks": {
     "details": [
-      { "appIDs": ["AQVH2U33P9.info.hrathnir.app008.Clip"], "components": [{ "/": "/play" }] }
+      { "appIDs": ["AQVH2U33P9.info.hrathnir.app008.clip"], "components": [{ "/": "/play" }] }
     ]
   },
   "appclips": {
-    "apps": ["AQVH2U33P9.info.hrathnir.app008.Clip"]
+    "apps": ["AQVH2U33P9.info.hrathnir.app008.clip"]
   }
 }
 ```
 
 - `AQVH2U33P9` は Apple Developer の Team ID(現状 project.pbxproj の DEVELOPMENT_TEAM から確認可)
-- `info.hrathnir.app008.Clip` は App Clip Bundle ID(Xcode で新ターゲット作成時に指定)
+- `info.hrathnir.app008.clip` は App Clip Bundle ID(Xcode で新ターゲット作成時に指定)
 - `/play` は起動 URL のパス(`https://<domain>/play?xxx` のようにスキャンされる)
 
 ## Bundle ID 登録(Apple Developer Portal)
 
 1. https://developer.apple.com/account → Identifiers → ＋ → App IDs → App
-2. **Bundle ID**: `info.hrathnir.app008.Clip` を **Explicit** で登録
+2. **Bundle ID**: `info.hrathnir.app008.clip` を **Explicit** で登録
 3. **Capabilities**: Associated Domains にチェック
 4. **Parent Application**: `info.hrathnir.app008` を選択(App Clip 用 ID 登録時の必須項目)
 
