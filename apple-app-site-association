@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["AQVH2U33P9.info.hrathnir.app008.Clip"],
+        "components": [
+          {
+            "/": "/play",
+            "comment": "App Clip 起動エンドポイント"
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["AQVH2U33P9.info.hrathnir.app008.Clip"]
+  }
+}
